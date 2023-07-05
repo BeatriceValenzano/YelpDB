@@ -1,7 +1,6 @@
 package it.polito.tdp.yelp.db;
 
 import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.SQLException;
 
 import com.zaxxer.hikari.HikariDataSource;
