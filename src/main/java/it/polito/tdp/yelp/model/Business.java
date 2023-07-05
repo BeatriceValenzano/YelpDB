@@ -4,6 +4,7 @@ import java.util.Objects;
 import java.util.Set;
 
 public class Business {
+
 	private String businessId ;
 	private String fullAddress ;
 	private Boolean active ;
@@ -165,6 +166,12 @@ public class Business {
 		return Objects.equals(businessId, other.businessId);
 	}
 	
-	
+	@Override
+	public String toString() {
+		return "Business [businessId=" + businessId + ", fullAddress=" + fullAddress + ", active=" + active
+				+ ", categories=" + categories + ", city=" + city + ", reviewCount=" + reviewCount + ", businessName="
+				+ businessName + ", neighborhoods=" + neighborhoods + ", latitude=" + latitude + ", longitude="
+				+ longitude + ", state=" + state + ", stars=" + stars + ", reviews=" + reviews + "]";
+	}
 	
 }

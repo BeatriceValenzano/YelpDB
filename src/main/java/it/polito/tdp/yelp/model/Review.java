@@ -8,7 +8,7 @@ public class Review {
 	
 	// private String businessId ;
 	private String businessId ; // always loaded
-	private Business business ; // lazy loaded
+	private Business business ; // lazy loaded --> l'oggetto lo si carica solo al bisogno
 	private String userId ; // always loaded
 	private User user ; // lazy loaded
 	
